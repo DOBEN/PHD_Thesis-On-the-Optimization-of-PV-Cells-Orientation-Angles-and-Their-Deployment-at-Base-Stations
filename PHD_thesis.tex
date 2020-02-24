@@ -1,0 +1,164 @@
+
+\documentclass[a4paper,12pt,twoside]{report}
+
+\usepackage[left=40mm,right=20mm,top=2cm,bottom=3cm]{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float} 
+\usepackage[font=footnotesize]{subcaption}
+\usepackage[font=footnotesize]{caption}
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{ltxtable}
+\usepackage{booktabs}
+\usepackage{comment}
+\PassOptionsToPackage{obeyspaces}{url}
+\usepackage{url}
+\usepackage{calc}
+\usepackage{appendix}
+\usepackage[noadjust]{cite}
+\usepackage[figuresright]{rotating}
+\usepackage{IEEEtrantools}
+
+
+
+\def\tablename{Table}
+
+
+\newcolumntype{M}[1]{@{}>{\centering\arraybackslash}m{#1}@{}}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+ 
+\usepackage{algorithmicx}
+\usepackage{algorithm,algpseudocode}
+\usepackage{eurosym}
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\let\oldReturn\Return
+\renewcommand{\Return}{\State\oldReturn}
+
+\setcounter{secnumdepth}{5}
+
+\definecolor{Orange8}{RGB}{153,102,51}
+\definecolor{SeaBlue}{RGB}{0,102,204}
+\definecolor{Gray7}{RGB}{102,102,102}
+
+
+
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{latexsym}
+%\usepackage{mathchars}
+
+
+\newcommand{\normallinespacing}{\renewcommand{\baselinestretch}{1.5} \normalsize}
+
+%\input{blocked.sty}
+\input{uhead.sty}
+%\input{boxit.sty}
+\input{icthesis.sty}
+
+
+
+
+\newenvironment{breakablealgorithm}
+  {
+   \begin{center}
+     \refstepcounter{algorithm}
+     \hrule height.8pt depth0pt \kern2pt
+     \renewcommand{\caption}[2][\relax]{
+        {\centering \raggedright ##2\par}
+       \ifx\relax##1\relax 
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+       \else 
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+       \fi
+       \kern2pt\hrule\kern2pt
+     }
+  }{
+     \kern2pt\hrule\relax
+   \end{center}
+  }
+
+\usepackage{setspace}
+
+
+    \usepackage{listings}
+    \lstset{ 
+    	language=Matlab,                		% choose the language of the code
+    	numbers=left,                  			% where to put the line-numbers
+    	numberstyle=\tiny,      						% the size of the fonts that are used for the line-numbers
+    	stepnumber=1,                   		% the step between two line-numbers. If it's 1 each line will be numbered
+    	numbersep=5pt,                  		% how far the line-numbers are from the code
+    	showspaces=false,               		% show spaces adding particular underscores
+    	showstringspaces=false,         		% underline spaces within strings
+    	showtabs=false,                 		% show tabs within strings adding particular underscores
+    	breaklines=true,                		% sets automatic line breaking
+    	breakatwhitespace=false,        		% sets if automatic breaks should only happen at whitespace
+    	escapeinside={\%*}{*)}          		% if you want to add a comment within your code
+    }
+
+
+\usepackage{nomencl}
+\makenomenclature
+%in nomenclatur:  -s nomencl.ist -t "%tm.nlg" -o   "%tm.nls" "%tm.nlo"  
+
+ 
+
+%\usepackage{hyperref}
+\usepackage{bookmark}
+
+\begin{document}
+\bstctlcite{IEEEexample:BSTcontrol}  
+\hypersetup{pageanchor=false}
+
+
+
+\begin{figure}
+	\centering
+		\includegraphics[width=8cm]{pictures/SheffieldLogo.png}
+\end{figure}
+
+
+
+
+\title{\vspace{3cm} \LARGE {\bf 
+On the Optimization of PV Cells' Orientation Angles and Their Deployment at Base Stations for Energy-efficient Cellular Networks}\\
+}
+
+\author{\vspace{2cm} \textbf{By:} \\ \vspace{1cm} Doris Christine Benda \vspace{2cm} }
+\submitdate{July 1, 2019}
+
+\normallinespacing
+\maketitle
+
+\preface
+
+\input{abstract/abstract}
+\input{statement_of_originality/statement_of_originality}
+\input{acknowledgements/acknowledgements}
+\input{dedication/dedication}
+\input{publication_list/publication_list}
+
+\body
+\printnomenclature
+\hypersetup{pageanchor=true}
+
+\input{introduction/introduction}
+\input{contribution_organization/contribution_organization}
+\input{Chapter_1/Chapter_1}
+\input{Chapter_2/Chapter_2}
+\input{Chapter_3/Chapter_3}
+\input{conclusion/conclusion}
+\input{appendix/appendix}
+
+\clearpage
+\normalsize
+\addcontentsline{toc}{chapter}{References}
+
+ \bibliographystyle{IEEEtran}
+    \bibliography{IEEEabrv,Ref}
+
+\end{document}

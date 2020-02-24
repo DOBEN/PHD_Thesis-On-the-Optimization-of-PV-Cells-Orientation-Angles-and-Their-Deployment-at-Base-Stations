@@ -1,0 +1,40 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Depiction of a PV cell installed with the orientation angle $\theta $ and inclination angle $\gamma $}}{4}{figure.caption.6}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Effects of the orientation angle $\theta $ on the energy generation profile of the PV cell\relax }}{5}{figure.caption.8}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Depiction of a fixed PV cell, a single-axis sun tracking PV cell, a dual-axis sun tracking PV cell, and an adjustable PV cell}}{7}{figure.caption.9}% 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Example of an energy generation profile of a PV cell and an energy consumption profile of a BS to illustrate their mismatch\relax }}{8}{figure.caption.10}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of system model 1\relax }}{19}{figure.caption.11}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces PVGIS data sheet}}{20}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Irradiance model\relax }}{22}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Definition of the angle of incidence $AOI_{\theta }(t)$\relax }}{24}{figure.caption.14}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Declination angle $\delta _d$ throughout the year\relax }}{25}{figure.caption.15}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Definition of the hour angle $\omega _t$\relax }}{25}{figure.caption.16}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Hour angle $\omega _t$ throughout the day of a PV cell located on the reference meridian of its time zone \relax }}{25}{figure.caption.17}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Constant traffic load profile, business traffic load profile, and residential traffic load profile throughout the day}}{28}{figure.caption.18}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Energy consumption profiles with constant traffic load and energy generation profiles of 2 PV cells\relax }}{29}{figure.caption.19}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Energy consumption profiles with business-area traffic load and energy generation profiles of 2 PV cells\relax }}{30}{figure.caption.20}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Energy consumption profiles with residential-area traffic load and energy generation profiles of 2 PV cells\relax }}{30}{figure.caption.21}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Values of $a_t$, $b_t$, and $c_t$ throughout one day for the spring equinox, summer solstice, autumn equinox, and winter solstice}}{33}{figure.caption.22}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Irradiance values of differently oriented PV cells in Greenwich (London, UK) and Singapore}}{35}{figure.caption.23}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of system model 2\relax }}{57}{figure.caption.30}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Energy generation flow and load-independent energy consumption flow if $\mathaccentV {tilde}07E{G}_{\theta ,1}(t)>c_{\mathrm {con}}$\relax }}{63}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Energy generation flow and load-independent energy consumption flow if $\mathaccentV {tilde}07E{G}_{\theta ,1}(t)<c_{\mathrm {con}}$\relax }}{63}{figure.caption.32}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Energy consumption flow for the battery state $\frac {c_{\mathrm {UE}}}{\mu }$ \relax }}{64}{figure.caption.33}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Energy consumption flow for the battery state $0$ \relax }}{64}{figure.caption.34}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparison between the proposed algorithm and the simulation algorithm. $b_{\qopname \relax m{max}}$ was set at 3. \relax }}{70}{figure.caption.35}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Average number of served UEs per day $\overline {S_{\mathrm {UE}}}(\theta )$ vs. PV cell orientation angle $\theta $ for different battery capacities $b_{\mathrm {max}}$ \relax }}{71}{figure.caption.36}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Demonstration of the concept of energy harvesters with anti-correlated energy generation profiles}}{78}{figure.caption.37}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustration of the considered cellular network}}{81}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The graph representation of the cellular network}}{81}{figure.caption.39}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Average normalized renewable power received at the deficit BSs $M$ of the proposed MILPP and of random BS cluster allocation vs. number of BSs $B$. \relax }}{88}{figure.caption.40}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Average normalized renewable power received at the deficit BSs $M$ of the proposed MILPP and of random BS cluster allocation vs. distribution line existence probability $q$.\relax }}{89}{figure.caption.41}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Average normalized renewable power received at the deficit BSs $M$ of the proposed MILPP and of random BS cluster allocation vs. power loss coefficient per $l$ meters of distribution line $C$.\relax }}{90}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Average normalized renewable power received at the deficit BSs $M$ of the proposed MILPP and of random BS cluster allocation vs. power surplus value $b_0$}}{91}{figure.caption.43}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces PVGIS data sheet from \cite {PVGIS}. $\gamma $ is set at $36^{\mathrm {o}}$, $\theta $ is set at $0^{\mathrm {o}}$, month is set at June, and the location is Greenwich ($lat=51.4767^{\mathrm {o}}$ North, $lon=0.0003^{\mathrm {o}}$ West).\relax }}{100}{figure.caption.45}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Normalized energy generation profiles of a southeast-oriented, south-oriented, and southwest-oriented PV cell. Each of the PV cells is covering the total surface area $A=5\mathrm {m^2}$. The south-oriented PV cell generates at noon the most energy among all orientation angle settings and among all time steps throughout the day. This normalized peak energy generation is exactly 1 unit of normalized energy.\relax }}{101}{figure.caption.46}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Energy generation profile $G_{0^{\mathrm {o}},1}^{\text {original}}(t)$ and energy consumption profile $C^{\text {original}}(t)$ before normalization. \relax }}{102}{figure.caption.47}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Energy generation profile $G_{0^{\mathrm {o}},1}(t)$ and energy consumption profile C(t) after normalization.\relax }}{103}{figure.caption.48}% 

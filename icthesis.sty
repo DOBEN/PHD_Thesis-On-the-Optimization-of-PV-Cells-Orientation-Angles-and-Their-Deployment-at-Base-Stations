@@ -1,0 +1,240 @@
+\pagestyle{empty}
+
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+\setlength{\parindent}{0pt}
+
+\makeatletter  
+
+\linespread{1.5}
+\def\submitdate#1{\gdef\@submitdate{#1}}
+
+\def\maketitle{
+  \begin{titlepage}{
+    \Large \bf \@title \par
+  }
+  \par
+  {\Large \@author}
+  \par
+
+A thesis submitted in partial fulfillment of the requirements 
+ \linebreak
+for the degree of Doctor of Philosophy
+  \vfil
+
+
+    \Large The University of Sheffield \\
+
+   Faculty of Engineering  \\
+ 
+    Department of Electronic \& Electrical Engineering\\
+\vskip 2 cm
+   Submission Date: \@submitdate
+\vskip 2 cm
+    \rm
+  \end{titlepage}
+}
+
+\def\titlepage{
+  \newpage
+  \centering
+  \linespread{1}
+  \normalsize
+  \vbox to \vsize\bgroup\vbox to 9in\bgroup
+}
+\def\endtitlepage{
+  \par
+  \kern 0pt
+  \egroup
+  \vss
+  \egroup
+  \clearpage
+}
+
+\def\abstract{
+  \begin{center}{
+   \Huge \bf Abstract}
+  \end{center}
+  \small
+
+  \linespread{1.5}
+  \normalsize
+}
+\def\endabstract{
+  \par
+}
+
+\newenvironment{acknowledgements}{
+  \clearpage
+  \begin{center}{
+    \Huge  \bf Acknowledgements}
+  \end{center}
+  \small
+  \linespread{1.5}
+  \normalsize
+}{\cleardoublepage}
+\def\endacknowledgements{
+  \par
+}
+
+\newenvironment{dedication}{
+  \clearpage
+  \begin{center}{
+    \Huge  \bf Dedication}
+  \end{center}
+  \small
+  \linespread{1.5}
+  \normalsize
+}
+
+\newenvironment{appendix1}{
+  \clearpage
+  \begin{center}{
+    \Huge \bf Appendix}
+  \end{center}
+  \small
+  \linespread{1.5}
+  \normalsize
+}
+
+\newenvironment{Statement_of_Originality}{
+  \clearpage
+  \begin{center}{
+    \Huge  \bf Statement of Originality}
+  \end{center}
+  \small
+  \linespread{1.5}
+  \normalsize
+}
+
+
+\newenvironment{List_of_Publications}{
+  \clearpage
+    \pagestyle{uheadings}
+  \begin{center}{
+    \Huge  \bf List of Publications}
+  \end{center}
+  \small
+  \linespread{1.5}
+  \normalsize
+}
+
+\def\preface{
+    \pagenumbering{roman}
+    \pagestyle{plain}
+    \doublespacing
+}
+
+\def\body{
+    \clearpage    
+    \pagestyle{uheadings}
+\addcontentsline{toc}{chapter}{Table of Contents}
+    \tableofcontents
+    \clearpage
+    \pagestyle{uheadings}
+\addcontentsline{toc}{chapter}{List of Tables}
+    \listoftables
+    \clearpage
+    \pagestyle{uheadings}
+\addcontentsline{toc}{chapter}{List of Figures}
+    \listoffigures
+\clearpage
+    \pagestyle{uheadings}
+    \setlength{\nomlabelwidth}{3cm}                                                   
+\include{Nomenclature/nomenclature}
+    \pagestyle{plain}
+ \clearpage
+    \pagestyle{uheadings}
+    \doublespacing
+}
+
+
+\renewenvironment{appendices}{
+    \pagestyle{uheadings}
+
+
+  \@resets@pp
+  \if@dotoc@pp
+    \if@dopage@pp              
+      \if@chapter@pp        
+        \clear@ppage
+      \fi
+      \appendixpage
+    \else               
+       \if@chapter@pp        
+         \clear@ppage
+       \fi
+      \addappheadtotoc
+    \fi
+  \else
+    \if@dopage@pp              
+      \appendixpage
+    \fi
+  \fi
+  \if@chapter@pp
+    \if@dotitletoc@pp \@redotocentry@pp{chapter} \fi
+  \else
+    \if@dotitletoc@pp \@redotocentry@pp{section} \fi
+    \if@dohead@pp
+      \def\sectionmark##1{%
+        \if@twoside
+        \markright{\@formatsecmark@pp{##1}}
+        \else
+        \markright{\@formatsecmark@pp{##1}}{}
+        \fi}
+    \fi
+    \if@dotitle@pp
+      \def\sectionname{\appendixname}
+      \def\@seccntformat##1{\@ifundefined{##1name}{}{\csname ##1name\endcsname\ }%
+        \csname the##1\endcsname\ifnum0=\pdfstrcmp{##1}{section}:\fi\quad}
+    \fi
+  \fi}{
+  \@ppsaveapp\@pprestoresec}
+\makeatother
+
+
+
+\renewcommand{\contentsname}{T\MakeLowercase{able of }C\MakeLowercase{ontents}}
+
+\renewcommand{\listfigurename}{L\MakeLowercase{ist of }F\MakeLowercase{igures}}
+\renewcommand{\listtablename}{L\MakeLowercase{ist of }T\MakeLowercase{ables}}
+\renewcommand{\appendixname}{List of appendices}
+\renewcommand{\appendixpagename}{List of appendices}
+
+
+\renewcommand\bibname{R\MakeLowercase{eferences}}
+
+
+
+
+
+
+% ******************************* Nomenclature *********************************
+\RequirePackage[intoc]{nomencl}
+\makenomenclature
+\renewcommand{\nomgroup}[1]{%
+\ifthenelse{\equal{#1}{A}}{\item[\textbf{Greek Letters}]}{%
+\ifthenelse{\equal{#1}{B}}{\item[\textbf{Roman Letters - Upper Case}]}{%
+\ifthenelse{\equal{#1}{C}}{\item[\textbf{Roman Letters - Lower Case}]}{%
+\ifthenelse{\equal{#1}{Z}}{\item[\textbf{Acronyms / Abbreviations}]}{%
+\ifthenelse{\equal{#1}{R}}{\item[\textbf{Superscripts}]}{%
+\ifthenelse{\equal{#1}{S}}{\item[\textbf{Subscripts}]}{%
+\ifthenelse{\equal{#1}{X}}{\item[\textbf{Other Symbols}]}
+{}
+}
+}
+}
+}
+}
+}
+}
+
+% To add nomenclature in the header
+\renewcommand{\nompreamble}{\markboth{\nomname}{\nomname}}
+
+% Add nomenclature to contents and print out nomenclature
+\newcommand{\printnomencl}[1][]{
+\ifthenelse{\equal {#1}{}}
+{\printnomenclature}
+{\printnomenclature[#1]}
+%\addcontentsline{toc}{chapter}{\nomname}
+}

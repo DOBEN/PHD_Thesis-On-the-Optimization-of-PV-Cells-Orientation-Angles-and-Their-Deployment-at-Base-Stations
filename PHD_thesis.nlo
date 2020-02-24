@@ -1,0 +1,118 @@
+\nomenclatureentry{a,01$\alpha$@[{$\alpha$}]\begingroup Albedo of ground\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,02$\gamma$@[{$\gamma$}]\begingroup Inclination angle of PV cell, $\gamma \in[0^{\mathrm{o}},90^{\mathrm{o}}]$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,03$\Delta_1$@[{$\Delta_1$}]\begingroup Gain of adding the $1^{\mathrm{st}}$ PV cell, cf. (\ref{Delta_1})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,04$\Delta_n$@[{$\Delta_n$}]\begingroup Gain of adding the $n^{\mathrm{th}}$ PV cell, $n\in\{2, ..., N\}$, cf. (\ref{Delta_n})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,05$\delta_d$@[{$\delta_d$}]\begingroup Declination angle, cf. (\ref{delta})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,06$\zeta_t$@[{$\zeta_t$}]\begingroup Zenith angle, cf. (\ref{zenith})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,07$\eta$@[{$\eta$}]\begingroup Energy conversion efficiency of PV cell\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,08$\theta$@[{$\theta$}]\begingroup Orientation angle of PV cell, $\theta\in[-90^{\mathrm{o}},90^{\mathrm{o}}]$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,09$\theta^*$@[{$\theta^*$}]\begingroup Optimal orientation angle of PV cell, $\theta^*\in[-90^{\mathrm{o}},90^{\mathrm{o}}]$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,10$\theta_n$@[{$\theta_n$}]\begingroup Orientation angle of PV cell $n$, $\theta_n\in[-90^{\mathrm{o}},90^{\mathrm{o}}]$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,11$\theta_n^*$@[{$\theta_n^*$}]\begingroup Optimal orientation angle of PV cell $n$, $\theta_n^*\in[-90^{\mathrm{o}},90^{\mathrm{o}}]$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,12$\lambda(t)$@[{$\lambda(t)$}]\begingroup Density parameter of Poisson distributed random variable at time step $t$, cf. (\ref{P})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,13$\mu$@[{$\mu$}]\begingroup Precision of the discretization of the energy values/ battery states\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,14$\rho$@[{$\rho$}]\begingroup Resistivity of the distribution line \nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,15$\tau$@[{$\tau$}]\begingroup Duration of one time step \nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{a,16$\omega_t$@[{$\omega_t$}]\begingroup Hour angle, cf. Figure \ref{hour_angle_graph}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,01$A$@[{$A$}]\begingroup Total surface area of $N$ PV cells\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,02$A_c$@[{$A_c$}]\begingroup Cross-sectional area of the distribution line\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,03$A_t$@[{$A_t$}]\begingroup Anisotropy index at time step $t$, cf. (\ref{At})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,04$AOI_{\theta}(t)$@[{$AOI_{\theta}(t)$}]\begingroup Angle of incidence of a PV cell deployed with orientation angle $\theta$ at time step $t$, cf. (\ref{allgemein_AOI})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,05$B$@[{$B$}]\begingroup Number of BSs in the square area of $l^2$ square meters, cf. Figure \ref{fig:1}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,11$BS_i$@[{$BS_i$}]\begingroup BS with index $i$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,12$C$@[{$C$}]\begingroup Power loss coefficient per $l$ meters of distribution line\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,13$C(t)$@[{$C(t)$}]\begingroup Energy consumption of the BS at time step $t$, cf. Figures \ref{constant_allgemein} - \ref{residential_allgemein}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,14$C_{\mathrm{bus}}(t)$@[{$C_{\mathrm{bus}}(t)$}]\begingroup Business-area traffic load profile at time step $t$, cf. Figure \ref{all_consumption_profiles}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,15$C_{\mathrm{con}}(t)$@[{$C_{\mathrm{con}}(t)$}]\begingroup Constant traffic load profile at time step $t$, cf. Figure \ref{all_consumption_profiles}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,21$C_{\mathrm{res}}(t)$@[{$C_{\mathrm{res}}(t)$}]\begingroup Residential-area traffic load profile at time step $t$, cf. Figure \ref{all_consumption_profiles}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,22$DHI_t$@[{$DHI_t$}]\begingroup Diffuse horizontal irradiance at time step $t$, obtained from PVGIS \cite{PVGIS}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,23$DNI_t$@[{$DNI_t$}]\begingroup Direct normal irradiance at time step $t$, obtained from PVGIS \cite{PVGIS}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,24$E$@[{$E$}]\begingroup Set of edges in the graph/cellular network, cf. (\ref{V_and_E})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,25$E_{\mathrm{con}}$@[{$E_{\mathrm{con}}$}]\begingroup Solar constant set at $1367\frac{\mathrm{W}}{\mathrm{m}^2}$ \cite{Solar_Cell_declination_inclination_angle}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,26$E_d$@[{$E_d$}]\begingroup Extraterrestrial radiation on day $d$, cf. (\ref{extra})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,31$G(t)$@[{$G(t)$}]\begingroup Energy generation of the PV cell/cells at time step $t$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,32$G^{\text{original}}_{\theta,N}(t)$@[{$G^{\text{original}}_{\theta,N}(t)$}]\begingroup Energy generated by one PV cell installed with $\theta$ ($N$ is the total number of PV cells) at time step $t$, cf. (\ref{normalization})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,330$G_{\theta,N}(t)$@[{$G_{\theta,N}(t)$}]\begingroup Normalized energy generated by one PV cell installed with $\theta$ ($N$ is the total number of PV cells) at time step $t$, cf. (\ref{norma})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,335$\tilde{G}_{\theta,1}(t)$@[{$\tilde{G}_{\theta,1}(t)$}]\begingroup Closest multiple of $\mu$ from $G_{\theta,1}(t)$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,34$G_{(\theta_1, ..., \theta_N)}(t)$@[{$G_{(\theta_1, ..., \theta_N)}(t)$}]\begingroup Normalized total energy generated by $N$ PV cells installed with $\theta_1, ....,\theta_N$ at time step $t$, cf. (\ref{nor})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,35$GHI_t$@[{$GHI_t$}]\begingroup Global horizontal irradiance at time step $t$, obtained from PVGIS \cite{PVGIS}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,41$I_{\theta}(t)$@[{$I_{\theta}(t)$}]\begingroup Irradiance on PV cell installed with orientation angle $\theta$ at time step $t$, cf. (\ref{I1})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,42$I_{b_\theta}(t)$@[{$I_{b_\theta}(t)$}]\begingroup Direct-beam irradiance at time step $t$, cf. (\ref{I4})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,43$I_{d_\theta}(t)$@[{$I_{d_\theta}(t)$}]\begingroup Sky-diffuse irradiance at time step $t$, cf. (\ref{reindl})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,44$I_{g}(t)$@[{$I_{g}(t)$}]\begingroup Ground-reflected irradiance at time step $t$, cf. (\ref{I3})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,45$I_{\mathrm{ele}}$@[{$I_{\mathrm{ele}}$}]\begingroup Electric current traveling through the distribution line\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,51$L$@[{$L$}]\begingroup Number of loops in simulation algorithm\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,52$M$@[{$M$}]\begingroup Total normalized renewable power received at the deficit BSs during the two time steps\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,53$N$@[{$N$}]\begingroup Number of PV cells at the BS\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,54$P_{\mathrm{loss}}$@[{$P_{\mathrm{loss}}$}]\begingroup Power loss in the transmission due to resistive heating, cf. (\ref{loss})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,55$S_{\max}$@[{$S_{\max}$}]\begingroup Number of battery energy states, cf. (Algorithm \ref{mar} line: \ref{battery_stages})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,61$S_{\mathrm{Shift}}$@[{$S_{\mathrm{Shift}}$}]\begingroup New battery state after $\tilde{G}_{\theta,1}(t)$ is added and $c_{\mathrm{con}}$ is subtracted, cf. (Algorithm \ref{mar} line: \ref{she})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,62$S_{\mathrm{UE}}(\theta)$@[{$S_{\mathrm{UE}}(\theta)$}]\begingroup Number of UEs served per day by the BS, cf. (\ref{PPP})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,63$\overline{S_{\mathrm{UE}}}(\theta)$@[{$\overline{S_{\mathrm{UE}}}(\theta)$}]\begingroup Average number of UEs served per day by the BS, cf. (\ref{PPP})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,64$T$@[{$T$}]\begingroup Number of time steps per day\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,65$V$@[{$V$}]\begingroup Set of vertices in the graph/ cellular network, cf. (\ref{V_and_E})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{b,66$V_{\mathrm{ele}}$@[{$V_{\mathrm{ele}}$}]\begingroup Electric potential in the distribution line\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,001$a_\theta(t)$@[{$a_\theta(t)$}]\begingroup Available energy in the battery at the beginning of time step $t$, cf. (\ref{available})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,001$a_t$@[{$a_t$}]\begingroup Part of $\cos(AOI_{\theta}(t))$ that is independent of $\theta$, cf. (\ref{a_t})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,001$b_t$@[{$b_t$}]\begingroup Part of $\cos(AOI_{\theta}(t))$ that is multiplied by  $\sin(\theta)$, cf.  (\ref{b_t})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,011$b_\theta(t)$@[{$b_\theta(t)$}]\begingroup Stored energy in the battery at the end of time step $t$, cf. (\ref{bat})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,012$b_{\mathrm{begin}}$@[{$b_{\mathrm{begin}}$}]\begingroup Amount of energy stored in the battery at time step $0$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,013$b_{\mathrm{max}}$@[{$b_{\mathrm{max}}$}]\begingroup Battery capacity\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,014$b_0$@[{$b_0$}]\begingroup Power surplus value, $b_0\in \mathbb{R}^+$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,015$b_1$@[{$b_1$}]\begingroup Power deficit value, $b_1\in \mathbb{R}^-$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,016$\hat{b}_0$@[{$\hat{b}_0$}]\begingroup Normalize power surplus value with respect to $\mathrm{max}\{b_0,\lvert b_1 \rvert\}$, cf. (\ref{normal})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,017$\hat{b}_1$@[{$\hat{b}_1$}]\begingroup Normalize power deficit value with respect to $\mathrm{max}\{b_0,\lvert b_1 \rvert\}$, cf. (\ref{normal})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,021$c_\theta(t)$@[{$c_\theta(t)$}]\begingroup Load-dependent energy consumption of the BS at time step t, cf. (\ref{PPP3})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,022$c_{\mathrm{con}}$@[{$c_{\mathrm{con}}$}]\begingroup Load-independent part of the energy consumption at the BS in one time step\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,023$c_i$@[{$c_i$}]\begingroup Cluster allocation value of $BS_i$, $c_i\in\{0,1\}$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,024$c_t$@[{$c_t$}]\begingroup Part of $\cos(AOI_{\theta}(t))$ that is multiplied by  $\cos(\theta)$, cf.  (\ref{c_t})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,025$c_{\mathrm{UE}}$@[{$c_{\mathrm{UE}}$}]\begingroup Average energy consumption of the BS to serve one UE during a time step\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,026$d$@[{$d$}]\begingroup Day of the year with $1^{\mathrm{st}}$ of January is $d=1$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,031$d\big((i,j)\big)$@[{$d\big((i,j)\big)$}]\begingroup Normalize Euclidean distance between $BS_i$ and $BS_j$ with respect to $l$ meters, cf. (\ref{equ_y})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,041$e$@[{$e$}]\begingroup Edge $e$ in a graph\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,043$f^t\big((i,j)\big)$@[{$f^t\big((i,j)\big)$}]\begingroup Power flow on the directed edge from $BS_i$ to $BS_j$ at time step $t$ or second power of the current flow on the directed edge from $BS_i$ to $BS_j$ at time step $t$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,044$\hat{f}^t\big((i,j)\big)$@[{$\hat{f}^t\big((i,j)\big)$}]\begingroup Normalize power flow value with respect to $\mathrm{max}\{b_0,\lvert b_1 \rvert\}$ on the directed edge from $BS_i$ to $BS_j$ at time step $t$, cf. (\ref{normal})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,045$f(\theta_1, ..., \theta_N)$@[{$f(\theta_1, ..., \theta_N)$}]\begingroup Normalized energy drawn from the grid, Optimization objective, cf. (\ref{optimization_objective})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,046$l$@[{$l$}]\begingroup Side length of the square in Fig \ref{fig:1}\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,047$lat$@[{$lat$}]\begingroup Latitude of location\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,048$lon$@[{$lon$}]\begingroup Longitude of location\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,049$l(t)$@[{$l(t)$}]\begingroup Number of UEs connected to the BS at time step $t$, cf.  (\ref{PPP1})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,060$n$@[{$n$}]\begingroup Index of BS, $n\in\{1, ..., N\}$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,061$p_i^t$@[{$p_i^t$}]\begingroup Surplus/Deficit power of $BS_i$ at time step $t$, cf. (\ref{p_values})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,062$q$@[{$q$}]\begingroup Probability that two BSs are connected by a distribution line, $q \in [0,1]$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,063$s_\theta(t)$@[{$s_\theta(t)$}]\begingroup Number of served UEs by the BS at time step $t$, cf. (\ref{PPP2})\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,064$t$@[{$t$}]\begingroup Index of time step, $t\in\{1, ..., T\}$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{c,065$v$@[{$v$}]\begingroup Vertex $v$ in a graph\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{r,02$^*$@[{$^*$}]\begingroup Optimal value\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{s,01$_{\theta}$@[{$_{\theta}$}]\begingroup Parameter depends on the PV cell orientation angle $\theta$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{s,02$_{d}$@[{$_{d}$}]\begingroup Parameter depends on the day of the year with $1^{\mathrm{st}}$ of January is $d=1$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{s,03$_{i}$@[{$_{i}$}]\begingroup Index of BS, $i\in\{1, ..., B\}$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{s,04$_{j}$@[{$_{j}$}]\begingroup Index of BS, $j\in\{1, ..., B\}$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{s,05$_n$@[{$_n$}]\begingroup Index of PV cell, $n\in\{1, ..., N\}$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{s,06$_t$@[{$_t$}]\begingroup Index of time step, $t\in\{1, ..., T\}$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02A*STAR@[{A*STAR}]\begingroup Agency for Science, Technology and Research in Singapore\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02BS@[{BS}]\begingroup Base station\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02AC@[{AC}]\begingroup Alternating current\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02DC@[{DC}]\begingroup Direct current\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02MILPP@[{MILPP}]\begingroup Mixed-integer linear programming problem\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02GIS@[{GIS}]\begingroup Geographic information system\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02PV@[{PV}]\begingroup Photovoltaic\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02PVGIS@[{PVGIS}]\begingroup Photovoltaic geographic information system\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02SINR@[{SINR}]\begingroup Signal-to-interference-plus-noise ratio\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{z,02UE@[{UE}]\begingroup User equipment\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,00$\forall$@[{$\forall$}]\begingroup For all\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,12$\lfloor x \rceil$@[{$\lfloor x \rceil$}]\begingroup $x$ is rounded to the nearest integer value\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,13$\lfloor x \rfloor$@[{$\lfloor x \rfloor$}]\begingroup $x$ is rounded down to the nearest integer value\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,20$\mathbb{N}$@[{$\mathbb{N}$}]\begingroup Set of natural numbers\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,21$\mathbb{R}$@[{$\mathbb{R}$}]\begingroup Set of real numbers\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,21$\mathbb{Z}$@[{$\mathbb{Z}$}]\begingroup Set of integer numbers\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,30$\mathbb{P}(X=x)$@[{$\mathbb{P}(X=x)$}]\begingroup Probability that the random variable $X$ is equal to $x$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,31$\mathbb{P}(X\geq x)$@[{$\mathbb{P}(X\geq x)$}]\begingroup Probability that the random variable $X$ is not less than the value $x$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,32$X:=\mathrm{PD}(\lambda)$@[{$X:=\mathrm{PD}(\lambda)$}]\begingroup $X$ is a Poisson distributed random variable with density parameter $\lambda$ \nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,40$G<<C$@[{$G<<C$}]\begingroup Energy generation of PV cell/cells is significantly smaller than energy consumption of BS\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,41$G<C$@[{$G<C$}]\begingroup Energy generation of PV cell/cells is slightly smaller than energy consumption of BS\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,42$G>C$@[{$G>C$}]\begingroup Energy generation of PV cell/cells is slightly greater than energy consumption of BS\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,43$G>>C$@[{$G>>C$}]\begingroup Energy generation of PV cell/cells is significantly greater than energy consumption of BS\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,70$\lvert \lvert BS_i - BS_j \rvert \rvert$@[{$\lvert \lvert BS_i - BS_j \rvert \rvert$}]\begingroup Euclidean distance between $BS_i$ and $BS_j$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,90$(i,j)$@[{$(i,j)$}]\begingroup Directed edge from $BS_i$ to $BS_j$\nomeqref {0}|nompageref}{xvii}
+\nomenclatureentry{x,01$n%! $@[{$n%! $}]\begingroup Factorial of non-negative integer $n$, $n \in \mathbb{N}_0$\nomeqref {0}|nompageref}{xvii}

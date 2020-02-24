@@ -1,0 +1,80 @@
+\contentsline {chapter}{Abstract}{i}{figure.caption.1}% 
+\contentsline {chapter}{Statement of Originality}{ii}{figure.caption.1}% 
+\contentsline {chapter}{Acknowledgements}{iii}{figure.caption.1}% 
+\contentsline {chapter}{Dedication}{iv}{figure.caption.1}% 
+\contentsline {chapter}{List of Publications}{v}{figure.caption.1}% 
+\contentsline {chapter}{Table of Contents}{vii}{figure.caption.1}% 
+\contentsline {chapter}{List of Tables}{xii}{chapter*.2}% 
+\contentsline {chapter}{List of Figures}{xiii}{chapter*.3}% 
+\contentsline {chapter}{\nonumberline Nomenclature}{xvii}{chapter*.5}% 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}PV Cell Angles}{3}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Types of PV Cells}{6}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Motivation and Main Objective}{8}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Contributions}{9}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}Organization}{12}{section.1.6}% 
+\contentsline {chapter}{\numberline {2}PV Cell Orientation Angles Optimization for a Base Station Equipped with Several PV Cells}{14}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Literature Review: Orientation Angle Optimization}{14}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Contributions of Chapter \ref {Chapter_1}}{17}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}System Model 1 - Several PV Cells Powering One BS}{18}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Energy Generation of a PV Cell}{19}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Ground-reflected Irradiance $I_g(t)$}{22}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Direct-beam Irradiance $I_{b_\theta }(t)$}{23}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Sky-diffuse Irradiance $I_{d_\theta }(t)$}{26}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.5}Energy Consumption of a BS}{27}{subsection.2.3.5}% 
+\contentsline {subsection}{\numberline {2.3.6}Problem Formulation }{30}{subsection.2.3.6}% 
+\contentsline {section}{\numberline {2.4}Analytical Insights obtained from Section \ref {system_1}}{32}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Results and Discussion}{35}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Remarks on the Presentation of the Results}{38}{subsection.2.5.1}% 
+\contentsline {subsubsection}{\numberline {2.5.1.1}Results for 1 PV Cell (N=1) }{38}{subsubsection.2.5.1.1}% 
+\contentsline {subsubsection}{\numberline {2.5.1.2}Results for 2 PV Cells (N=2) }{42}{subsubsection.2.5.1.2}% 
+\contentsline {subsubsection}{\numberline {2.5.1.3}Results for 3 PV Cells (N=3) }{45}{subsubsection.2.5.1.3}% 
+\contentsline {subsection}{\numberline {2.5.2}Summary of the Key Findings and Discussions of the Results}{49}{subsection.2.5.2}% 
+\contentsline {subsubsection}{\numberline {2.5.2.1}PV Cells with Default Orientation Angles}{50}{subsubsection.2.5.2.1}% 
+\contentsline {subsubsection}{\numberline {2.5.2.2}Adding the First PV Cell with Optimized Orientation Angle}{50}{subsubsection.2.5.2.2}% 
+\contentsline {subsubsection}{\numberline {2.5.2.3}Adding the Second PV Cell with Optimized Orientation Angle}{51}{subsubsection.2.5.2.3}% 
+\contentsline {subsubsection}{\numberline {2.5.2.4}Adding the Third PV Cell with Optimized Orientation Angle}{51}{subsubsection.2.5.2.4}% 
+\contentsline {section}{\numberline {2.6}Summary of Chapter \ref {Chapter_1}}{52}{section.2.6}% 
+\contentsline {chapter}{\numberline {3}Impact of the Battery Capacity on the Optimal Orientation Angle of a PV Cell}{54}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Literature Review: Batteries at BSs}{54}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Contributions of Chapter \ref {Chapter_2}}{56}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}System Model 2 - One PV Cell Powering a BS with Battery}{57}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Solar Energy Storage Model}{57}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Energy Generation Flow and Load-independent Energy Consumption Flow}{58}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Load-dependent Energy Consumption Flow}{59}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.4}Determination of the Average Number of Served UEs}{60}{subsection.3.3.4}% 
+\contentsline {section}{\numberline {3.4}Orientation Angle Optimization Algorithm with Markov Chain Based Battery}{61}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Markov Chain Initialization}{62}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Energy Generation Flow and Load-independent Energy Consumption Flow of Algorithm \ref {mar}}{62}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Load-dependent Energy Consumption Flow of Algorithm \ref {mar}}{63}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Determination of the Average Number of Served UEs of Algorithm \ref {mar}}{65}{subsection.3.4.4}% 
+\contentsline {section}{\numberline {3.5}Derivation of a Simulation Algorithm as Baseline }{66}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Results and Discussion}{67}{section.3.6}% 
+\contentsline {subsection}{\numberline {3.6.1}Running Time of the proposed Algorithm and the Simulation Algorithm}{67}{subsection.3.6.1}% 
+\contentsline {subsection}{\numberline {3.6.2}Accuracy of the Proposed Algorithm and the Simulation Algorithm }{68}{subsection.3.6.2}% 
+\contentsline {subsection}{\numberline {3.6.3}Dependency of the Optimal PV Cell Orientation Angle on the Given Battery Capacity}{70}{subsection.3.6.3}% 
+\contentsline {section}{\numberline {3.7}Summary of Chapter \ref {Chapter_2}}{71}{section.3.7}% 
+\contentsline {chapter}{\numberline {4}Optimal Deployment of Energy Harvesters with Anti-correlated Energy Generation Profiles at Base Stations}{73}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Background: Different Power Sharing Methods}{74}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Wireless Power Transfer}{74}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Traffic Offloading}{74}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Smart Grid/ Main Grid Trading}{75}{subsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.1.4}Batteries}{76}{subsection.4.1.4}% 
+\contentsline {section}{\numberline {4.2}Literature Review: Benefits of Anti-correlated Energy Generation}{76}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Proof of Concept}{77}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Contributions of Chapter \ref {Chapter_3}}{79}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}System Model 3 - Deployment of Anti-correlated Energy Harvesters}{79}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}Power Surplus/Deficit Values}{80}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}Distance-dependent Power Loss in the Distribution Lines}{82}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}Topology of the Cellular Network}{82}{subsection.4.5.3}% 
+\contentsline {subsection}{\numberline {4.5.4}Justification of Assumptions}{83}{subsection.4.5.4}% 
+\contentsline {section}{\numberline {4.6}Mixed-Integer Linear Programming Problem}{84}{section.4.6}% 
+\contentsline {section}{\numberline {4.7}Numerical Results}{87}{section.4.7}% 
+\contentsline {section}{\numberline {4.8}Summary of Chapter \ref {Chapter_3}}{92}{section.4.8}% 
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{93}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Summary of Thesis Achievements}{93}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Future Work and Applications}{96}{section.5.2}% 
+\contentsline {chapter}{Appendix A}{99}{section.5.2}% 
+\contentsline {chapter}{Appendix B}{104}{figure.caption.48}% 
+\contentsline {chapter}{References}{120}{lstnumber.-10.79}% 

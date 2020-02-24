@@ -1,0 +1,73 @@
+\BOOKMARK [0][-]{figure.caption.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{figure.caption.1}{Statement of Originality}{}% 2
+\BOOKMARK [0][-]{figure.caption.1}{Acknowledgements}{}% 3
+\BOOKMARK [0][-]{figure.caption.1}{Dedication}{}% 4
+\BOOKMARK [0][-]{figure.caption.1}{List of Publications}{}% 5
+\BOOKMARK [0][-]{figure.caption.1}{Table of Contents}{}% 6
+\BOOKMARK [0][-]{chapter*.2}{List of Tables}{}% 7
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 8
+\BOOKMARK [0][-]{chapter*.5}{Nomenclature}{}% 9
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 10
+\BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{PV Cell Angles}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.3}{Types of PV Cells}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.4}{Motivation and Main Objective}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.5}{Contributions}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.6}{Organization}{chapter.1}% 16
+\BOOKMARK [0][-]{chapter.2}{PV Cell Orientation Angles Optimization for a Base Station Equipped with Several PV Cells}{}% 17
+\BOOKMARK [1][-]{section.2.1}{Literature Review: Orientation Angle Optimization}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.2}{Contributions of Chapter 2}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.3}{System Model 1 - Several PV Cells Powering One BS}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Energy Generation of a PV Cell}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.2}{Ground-reflected Irradiance I\137g\(t\)}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.3}{Direct-beam Irradiance I\137b\137\173theta\175\(t\)}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.4}{Sky-diffuse Irradiance I\137d\137\173theta\175\(t\)}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.5}{Energy Consumption of a BS}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.6}{Problem Formulation }{section.2.3}% 26
+\BOOKMARK [1][-]{section.2.4}{Analytical Insights obtained from Section 2.3}{chapter.2}% 27
+\BOOKMARK [1][-]{section.2.5}{Results and Discussion}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.5.1}{Remarks on the Presentation of the Results}{section.2.5}% 29
+\BOOKMARK [2][-]{subsection.2.5.2}{Summary of the Key Findings and Discussions of the Results}{section.2.5}% 30
+\BOOKMARK [1][-]{section.2.6}{Summary of Chapter 2}{chapter.2}% 31
+\BOOKMARK [0][-]{chapter.3}{Impact of the Battery Capacity on the Optimal Orientation Angle of a PV Cell}{}% 32
+\BOOKMARK [1][-]{section.3.1}{Literature Review: Batteries at BSs}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.2}{Contributions of Chapter 3}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.3}{System Model 2 - One PV Cell Powering a BS with Battery}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.1}{Solar Energy Storage Model}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.2}{Energy Generation Flow and Load-independent Energy Consumption Flow}{section.3.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.3}{Load-dependent Energy Consumption Flow}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.4}{Determination of the Average Number of Served UEs}{section.3.3}% 39
+\BOOKMARK [1][-]{section.3.4}{Orientation Angle Optimization Algorithm with Markov Chain Based Battery}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.4.1}{Markov Chain Initialization}{section.3.4}% 41
+\BOOKMARK [2][-]{subsection.3.4.2}{Energy Generation Flow and Load-independent Energy Consumption Flow of Algorithm 1}{section.3.4}% 42
+\BOOKMARK [2][-]{subsection.3.4.3}{Load-dependent Energy Consumption Flow of Algorithm 1}{section.3.4}% 43
+\BOOKMARK [2][-]{subsection.3.4.4}{Determination of the Average Number of Served UEs of Algorithm 1}{section.3.4}% 44
+\BOOKMARK [1][-]{section.3.5}{Derivation of a Simulation Algorithm as Baseline }{chapter.3}% 45
+\BOOKMARK [1][-]{section.3.6}{Results and Discussion}{chapter.3}% 46
+\BOOKMARK [2][-]{subsection.3.6.1}{Running Time of the proposed Algorithm and the Simulation Algorithm}{section.3.6}% 47
+\BOOKMARK [2][-]{subsection.3.6.2}{Accuracy of the Proposed Algorithm and the Simulation Algorithm }{section.3.6}% 48
+\BOOKMARK [2][-]{subsection.3.6.3}{Dependency of the Optimal PV Cell Orientation Angle on the Given Battery Capacity}{section.3.6}% 49
+\BOOKMARK [1][-]{section.3.7}{Summary of Chapter 3}{chapter.3}% 50
+\BOOKMARK [0][-]{chapter.4}{Optimal Deployment of Energy Harvesters with Anti-correlated Energy Generation Profiles at Base Stations}{}% 51
+\BOOKMARK [1][-]{section.4.1}{Background: Different Power Sharing Methods}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.1.1}{Wireless Power Transfer}{section.4.1}% 53
+\BOOKMARK [2][-]{subsection.4.1.2}{Traffic Offloading}{section.4.1}% 54
+\BOOKMARK [2][-]{subsection.4.1.3}{Smart Grid/ Main Grid Trading}{section.4.1}% 55
+\BOOKMARK [2][-]{subsection.4.1.4}{Batteries}{section.4.1}% 56
+\BOOKMARK [1][-]{section.4.2}{Literature Review: Benefits of Anti-correlated Energy Generation}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.3}{Proof of Concept}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.4}{Contributions of Chapter 4}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.5}{System Model 3 - Deployment of Anti-correlated Energy Harvesters}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.5.1}{Power Surplus/Deficit Values}{section.4.5}% 61
+\BOOKMARK [2][-]{subsection.4.5.2}{Distance-dependent Power Loss in the Distribution Lines}{section.4.5}% 62
+\BOOKMARK [2][-]{subsection.4.5.3}{Topology of the Cellular Network}{section.4.5}% 63
+\BOOKMARK [2][-]{subsection.4.5.4}{Justification of Assumptions}{section.4.5}% 64
+\BOOKMARK [1][-]{section.4.6}{Mixed-Integer Linear Programming Problem}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.7}{Numerical Results}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.8}{Summary of Chapter 4}{chapter.4}% 67
+\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Work}{}% 68
+\BOOKMARK [1][-]{section.5.1}{Summary of Thesis Achievements}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.2}{Future Work and Applications}{chapter.5}% 70
+\BOOKMARK [0][-]{section.5.2}{Appendix A}{}% 71
+\BOOKMARK [0][-]{figure.caption.48}{Appendix B}{}% 72
+\BOOKMARK [0][-]{lstnumber.-10.79}{References}{}% 73
